@@ -22,4 +22,12 @@ After changes in remote repo (best to do it before you start working again)
 
 # WGET
 Download url. Shell command. Use it in Terminal:
-`wget "https://cds.climate.copernicus.eu/cdsapp#!/yourrequests?tab=form"`
+`wget -bqc "http://path-to-url/file.zip"`
+
+
+# Interesting Links
+## Pandas
+https://tomaugspurger.net/posts/modern-1-intro/
+
+## Dask
+https://docs.dask.org/en/stable/dataframe-best-practices.html
