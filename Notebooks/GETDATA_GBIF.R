@@ -81,6 +81,9 @@ data_sf <- st_as_sf(Cal_vil, coords = c("x", "y"), crs = 4326)
 cat("\nCoordinate Reference System:\n")
 print(st_crs(data_sf))
 
+Cal_vil_cleaned <- st_coordinates(data_sf) %>%
+  as.data.frame() %>%
+  cbind(st_drop_geometry(data_sf))
 
 colnames(Cal_vil_cleaned)
 Calamagrostis_villosa <- subset(Cal_vil_cleaned, select = c(1, 12, 13, 14, 15, 16, 17, 18, 19))
