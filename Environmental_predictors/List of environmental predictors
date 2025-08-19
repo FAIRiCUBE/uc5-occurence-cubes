@@ -1,0 +1,12 @@
+Environmental predictors used for the models of the UC5 are: 
+- Corine land use
+- Elevation
+- Slope
+- hli
+- tri
+- twi
+- Aridity Index (AI)
+- Precipitation
+- Seasonal precipitation
+- Temperature
+- Seasonal Temperature
